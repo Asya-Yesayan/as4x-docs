@@ -92,6 +92,7 @@ title: "AsDoc օբյեկտ"
 | [RegistrFunction](ASDOC/RegistrFunction.md) | Կոնտեկստ մենյուի մեջ ավելացնում է նոր գործողություն։ |
 | [RegistrNode](ASDOC/RegistrNode.md) |Կոնտեկստ մենյուի մեջ ավելացնում է ենթամենյուի ծնող հանգույց։ |
 | [ReloadParents](ASDOC/ReloadParents.md) | Վերաբեռնում է փաստաթղթի ծնողների հավաքածուն: |
+| [RemoveRegistrFunction](ASDOC/RemoveRegistrFunction.md) | Հեռացնում է կոնտեքստային ֆունկցիան փաստաթղթի կոնտեքստային մենյուից։ |
 | [Run](ASDOC/Run.md) | Կանչում է փաստաթղթի նկարագրության մեջ առկա սկրիպտային ֆունկցիան։ |
 | [RunEx](ASDOC/RunEx_Doc.md) |  Կանչում է փաստաթղթի նկարագրության մեջ առկա սկրիպտային ֆունկցիան: Ինչպես նաև վերադարձնում է `ByRef`  պարամետրերը։ |
 | [SendMessage](ASDOC/SendMessage.md) |Ուղարկում է հաղորդագրություն այլ փաստաթղթի (կամ ծնող փաստաթղթին) առաջացնելով PostMessage իրադարձություն: |
