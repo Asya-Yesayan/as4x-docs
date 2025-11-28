@@ -24,6 +24,7 @@ title: "Doc իրադարձություններ"
 * [ChangeRequest](ChangeRequest.md)
 * [ClickDropDown](ClickDropDown.md)
 * [ClickDropDownGrid](ClickDropDownGrid.md)
+* [ConfigureDCRFields](ConfigureDCRFields.md)
 * [DefaultComment](DefaultComment.md)
 * [Delete](Delete.md)
 * [FillUIRequestConfig](FillUIRequestConfig.md)
