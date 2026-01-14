@@ -402,6 +402,15 @@ End Sub
 |:--|:--|
 |`Doc`|Իրադարձությունը առաջացնող փաստաթուղթը։|
 
+### EventArgsDocTempSubParameters Class
+
+Պարունակում է տվյալներ փաստաթղթի [PostTemplateSubstitutionParameters](DocExtenderEvents/PostTemplateSubstitutionParameters.md) իրադարձության մշակիչին փոխանցելու համար։
+
+|Հատկություն|Նկարագրություն|
+|:--|:--|
+| `Doc` | Իրադարձությունը առաջացնող փաստաթուղթը։ |
+| `Parameters` | [TemplateSubstitutionParameters](TemplateSubstitutionParameters.md) իրադարձության կատարման արդյունքում հաշվարկված պարամետրերի Dictionary, որտեղ բանալին պարամետրի կոդն է, արժեքը՝ համապատասխան հաշվարկված արժեքը։ Այս պարամետրը փոխանցվելու է տպելու ձևանմուշին կապակցված փաստաթղթի [TemplateSubstitution](TemplateSubstitution.md) իրադարձությանը։ |
+
 ### EventArgsDocBeforeCopy Class
 
 Պարունակում է տվյալներ փաստաթղթի [BeforeCopy](BeforeCopy.md) իրադարձության մշակիչներին փոխանցելու համար։
