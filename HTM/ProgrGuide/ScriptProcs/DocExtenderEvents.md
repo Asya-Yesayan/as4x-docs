@@ -13,6 +13,8 @@ title: "Document օգտագործողի կողմից ընդլայնվող իրա
 * [PostOnConfirmDCR](DocExtenderEvents/PostOnConfirmDCR.md)
 * [PostPostMessage](DocExtenderEvents/PostPostMessage.md)
 * [PostTemplateSubstitution](DocExtenderEvents/PostTemplateSubstitution.md)
+* [PreUIValidate](DocExtenderEvents/PreUIValidate.md)
+* [PostUIValidate](DocExtenderEvents/PostUIValidate.md)
 
 
 

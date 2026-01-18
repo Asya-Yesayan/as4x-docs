@@ -755,7 +755,7 @@ End Sub
 
 ### EventArgsDocUIValidate Class
 
-Պարունակում է տվյալներ փաստաթղթի [UIValidate](UIValidate.md) իրադարձության մշակիչին փոխանցելու համար։
+Պարունակում է տվյալներ փաստաթղթի [PreUIValidate](DocExtenderEvents/PreUIValidate.md), [UIValidate](UIValidate.md), [PostUIValidate](DocExtenderEvents/PostUIValidate.md) իրադարձությունների մշակիչներին փոխանցելու համար։
 
 |Հատկություն|Նկարագրություն|
 |:--|:--|

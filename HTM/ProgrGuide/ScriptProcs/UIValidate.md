@@ -22,4 +22,4 @@ End Sub
 
 |Պարամետր|Նկարագրություն|
 |--|--|
-|`oEventArgsDocUIValidate`| [EventArgsDocUIValidate](UserDefinedHandlers.md#eventargsdocuivalidate-class) դասի օբյեկտ, որը պարունակում է տվյալներ իրադարձությունը առաջացնող փաստաթղթի մասին։ |
+|`oEventArgsDocUIValidate`| [EventArgsDocUIValidate](UserDefinedHandlers.md#eventargsdocuivalidate-class) դասի օբյեկտ: |
