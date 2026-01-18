@@ -28,7 +28,7 @@ End Sub
 ```vb
 Public Sub PostUIValidate(ByVal oEventArgsDocUIValidate As EventArgsDocUIValidate)
 	If oEventArgsDocUIValidate.Doc.Grid("Accs").RowCount = 0 Then
-		If AsMsgBox("Հաշիվներ աղյուսակը դատարկ է։ Շարունակե՞լ։", vbYesNo + vbNo, "Տվյալների հաստատում",, _
+		If AsMsgBox("Հաշիվներ աղյուսակը դատարկ է։ Շարունակե՞լ։", vbYesNo + vbQuestion, "Տվյալների հաստատում",, _
 			"Accounts table is empty. Do You want to continue?", "Data verification") = vbNo Then
 			BreakError
 		End If
