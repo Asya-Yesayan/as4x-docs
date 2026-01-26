@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SCHEDULEDJOBSTEPS աղյուսակ
+title: job.SCHEDULEDJOBSTEPS աղյուսակ
 ---
 
 Այս աղյուսակը նախատեսված է հերթագրված առաջադրանքների (job) կատարման քայլերի ինֆորմացիայի պահպանման համար։
