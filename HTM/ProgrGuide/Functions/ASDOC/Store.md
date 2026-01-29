@@ -3,7 +3,6 @@ layout: page
 title: "AsDoc/Store"
 ---
 
-
 # Store մեթոդ
 
 [См. также](../Asdoc.md) Օրինակ [Применяется к](../Asdoc.md)
@@ -15,16 +14,14 @@ title: "AsDoc/Store"
 ## Շարահյուսություն
 
 ``` vb
-object.Store ([intCheckLevel])
+object.Store ([intCheckLevel], [bProgress], [bStoreWithoutService])
 ```
 
-
 Բաղադրիչներն են՝
-
 
 | Պարամետր | Նկարագրություն |
 |--|--|
 | object | Փաստաթուղթ օբյեկտի հղում։ |
 | intCheckLevel | [Փաստաթղթի ստուգման մակարդակը](DocCheckLevel.md)։ |
-
-
+| bProgress | Փաստաթղթի գրանցման ընթացքում սերվիսից եկող հաղորդագրության պատուհանների (MessageBox), Custom UI Request-ների ցուցադրման հայտանիշ։ Լռությամբ արժեքը True է։ Կիրառելի է միայն փաստաթղթի [պատուհանի հասանելիության](VisualFormAvailable.md) դեպքում։  |
+| bStoreWithoutService | Փաստաթղթի սերվիսով գրանցման հայտանիշ։ Լռությամբ արժեքը False է։ <br> Պարամետրի True արժեքի և փաստաթղթի նկարագրության AllowStoreIn4x հայտանիշի 1 արժեքի դեպքում փաստաթուղթը գրանցվում է առանց սերվիսի: <br> Պարամետրի True արժեքի և փաստաթղթի նկարագրության AllowStoreIn4x հայտանիշի 0 արժեքի դեպքում առաջանում է սխալ։ <br> Պարամետրի False արժեքի դեպքում փաստաթղթի գրանցումը տեղի է ունենում կախված՝ փաստաթղթի նկարագրության կատարման ռեժիմից (ProcessingMode) կամ փաստաթղթի [OverrideProcessingMode](../../ScriptProcs/OverrideProcessingMode.md) իրադարձությունով սահմանված կատարման ռեժիմից։ |
