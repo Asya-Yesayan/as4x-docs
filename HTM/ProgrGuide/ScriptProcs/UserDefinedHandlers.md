@@ -799,3 +799,13 @@ End Sub
 |:--|:--|
 | `Doc` | Իրադարձությունը առաջացնող փաստաթուղթը։ |
 | `FieldInclusions` | Dictionary, որտեղ բանալին փաստաթղթի դաշտի անունն է, իսկ արժեքը` դաշտի ցուցադրման հայտանիշը DCR-ի փոփոխությունների [տեքստային հաշվետվությունում](../Functions/AsRepViewer.md) (true  - ներառել, false - չներառել): |
+
+### EventArgsDocOnRejectDCR Class
+
+Պարունակում է տվյալներ փաստաթղթի [PreOnRejectDCR](DocExtenderEvents/PreOnRejectDCR.md), [PostOnRejectDCR](DocExtenderEvents/PostOnRejectDCR.md) իրադարձությունների մշակիչներին փոխանցելու համար։
+
+|Հատկություն|Նկարագրություն|
+|:--|:--|
+| `Doc` | Իրադարձությունը առաջացնող փաստաթուղթը։ |
+| `DCR` | [Փաստաթղթի փոփոխման հայտը](../Functions/DocChangeRequest.md/DCR.md)։ |
+| `RejectComment` | [Փաստաթղթի փոփոխման հայտի](../Functions/DocChangeRequest.md/DCR.md) մերժման մեկնաբանությունը։ |
