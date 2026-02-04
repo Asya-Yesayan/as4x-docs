@@ -5,7 +5,7 @@ title: "PreOnRejectDCR իրադարձություն"
 
 # PreOnRejectDCR փաստաթղթի օգտագործողի կողմից ընդլայնվող իրադարձություն
 
-PreOnRejectDCR իրադարձությունը առաջանում է փաստաթղթի փոփոխման հայտը մերժելիս` [OnRejectDCR](../OnRejectDCR.md) իրադարձությունից առաջ։ Հնարավորություն է տալիս փոփոխել փաստաթղթի և փոփոխման հայտի հատկությունները, թարմացնել մերժման մեկնաբանությունը։
+PreOnRejectDCR իրադարձությունը առաջանում է փաստաթղթի փոփոխման հայտը մերժելիս` [OnRejectDCR](../OnRejectDCR.md) իրադարձությունից առաջ։
 
 Իրադարձությունը կանչվում է մերժման տրանզակցիայի ընթացքում։
 
@@ -22,3 +22,14 @@ End Sub
 |Պարամետր|Նկարագրություն|
 |--|--|
 |`oEventArgsDocOnRejectDCR`| [EventArgsDocOnRejectDCR](../UserDefinedHandlers.md#eventargsdoconrejectdcr-class) դասի օբյեկտ։ |
+
+## Օրինակ
+
+```vb
+Public Sub PreOnRejectDCR(ByVal oEventArgsDocOnRejectDCR As EventArgsDocOnRejectDCR)
+   If oEventArgsDocOnRejectDCR.DCR.DCRID > 100 Then
+	RaiseError Doc.Caption, "Փաստաթղթի փոփոխման հայտի մերժումը արգելված է", _
+		       Doc.ECaption, "Document's change request denial is not allowed"
+   End If
+End Sub
+```
