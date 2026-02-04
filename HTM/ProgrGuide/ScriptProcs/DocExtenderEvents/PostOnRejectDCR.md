@@ -29,7 +29,7 @@ End Sub
 Public Sub PostOnRejectDCR(ByVal oEventArgsDocOnRejectDCR As EventArgsDocOnRejectDCR)
    If oEventArgsDocOnRejectDCR.DCR.DCRID > 100 Then
 	RaiseError Doc.Caption, "Փաստաթղթի փոփոխման հայտի մերժումը արգելված է", _
-		       Doc.ECaption, "Document's change request denial is not allowed"
+		    Doc.ECaption, "Document's change request denial is not allowed"
    End If
 End Sub
 ```
