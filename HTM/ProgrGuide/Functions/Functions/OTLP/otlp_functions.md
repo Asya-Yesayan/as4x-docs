@@ -12,13 +12,13 @@ tags: [trace, metric, OTLP]
 
 | Ֆունկցիա | Նկարագրություն |
 |----------|---------------|
-| [AddHistogram](AddHistogram.md) | Ստեղծում է նոր հիստոգրամ, որի արժեքը անհրաժեշտ է լրացնել [RecordHistogram](RecordHistogram.md) մեթոդի միջոցով։ |
-| [AddNumericCounter](AddNumericCounter.md) | Ստեղծում է թվային counter, որի արժեքը կարող է միայն աճել։ |
-| [AddNumericUpDownCounter](AddNumericUpDownCounter.md) | Ստեղծում է թվային counter, որի արժեքը կարող է աճել կամ նվազել։ |
-| [DecrementNumericUpDownCounter](DecrementNumericUpDownCounter.md) | Նվազեցնում է [AddNumericUpDownCounter](AddNumericUpDownCounter.md) -ով ստեղծված counter-ի արժեքը։ |
-| [IncrementNumericCounter](IncrementNumericCounter.md) | Ավելացնում է [AddNumericCounter](AddNumericCounter.md)-ով ստեղծված counter-ի արժեքը։ |
-| [IncrementNumericUpDownCounter](IncrementNumericUpDownCounter.md) | Ավելացնում է [AddNumericUpDownCounter](AddNumericUpDownCounter.md) -ով ստեղծված counter-ի արժեքը։ |
-| [SetTagInLast](SetTagInLast.md) | Վերջին [բացված թրեյսին](StartActivity.md) ավելացնում է նշված tag-ը և նրա արժեքը։ |
-| [StartActivity](StartActivity.md) | Բացում է թրեյս և վերադարձնում բացված թրեյսի id-ն։ |
-| [StopActivity](StopActivity.md) | Փակում է [նախապես բացված](StartActivity.md) թրեյսը ըստ id-ի: |
-| [RecordHistogram](RecordHistogram.md) | Գրանցում է հիստոգրամի արժեքը և փակում այն։ |
+| [AsKernel/AddHistogram](AddHistogram.md) | Ստեղծում է նոր հիստոգրամ, որի արժեքը անհրաժեշտ է լրացնել [RecordHistogram](RecordHistogram.md) մեթոդի միջոցով։ |
+| [AsKernel/AddNumericCounter](AddNumericCounter.md) | Ստեղծում է թվային counter, որի արժեքը կարող է միայն աճել։ |
+| [AsKernel/AddNumericUpDownCounter](AddNumericUpDownCounter.md) | Ստեղծում է թվային counter, որի արժեքը կարող է աճել կամ նվազել։ |
+| [AsKernel/DecrementNumericUpDownCounter](DecrementNumericUpDownCounter.md) | Նվազեցնում է [AddNumericUpDownCounter](AddNumericUpDownCounter.md) -ով ստեղծված counter-ի արժեքը։ |
+| [AsKernel/IncrementNumericCounter](IncrementNumericCounter.md) | Ավելացնում է [AddNumericCounter](AddNumericCounter.md)-ով ստեղծված counter-ի արժեքը։ |
+| [AsKernel/IncrementNumericUpDownCounter](IncrementNumericUpDownCounter.md) | Ավելացնում է [AddNumericUpDownCounter](AddNumericUpDownCounter.md) -ով ստեղծված counter-ի արժեքը։ |
+| [AsKernel/SetTagInLast](SetTagInLast.md) | Վերջին [բացված թրեյսին](StartActivity.md) ավելացնում է նշված tag-ը և նրա արժեքը։ |
+| [AsKernel/StartActivity](StartActivity.md) | Բացում է թրեյս և վերադարձնում բացված թրեյսի id-ն։ |
+| [AsKernel/StopActivity](StopActivity.md) | Փակում է [նախապես բացված](StartActivity.md) թրեյսը ըստ id-ի: |
+| [AsKernel/RecordHistogram](RecordHistogram.md) | Գրանցում է հիստոգրամի արժեքը և փակում այն։ |
