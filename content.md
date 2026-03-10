@@ -977,7 +977,7 @@ title: Contents
   - [Таблица APLEZU](HTM/ProgrGuide/Database/ApLezu.html)
   - [Таблица ARCACC](HTM/ProgrGuide/Database/ARCACC.html)
   - [Таблица ARMUSR](HTM/ProgrGuide/Database/ArmUsr.html)
-  - [Таблица DOCLOG](HTM/ProgrGuide/Database/DocLog.html)
+  - [Таблица DOCLOG](HTM/ProgrGuide/Database/DocLog.md)
   - [Таблица DOCLOGARC](HTM/ProgrGuide/Database/DocLogARC.html)
   - [Таблица DOCP](HTM/ProgrGuide/Database/DocP.html)
   - [Таблица DOCS](HTM/ProgrGuide/Database/Docs.html)
